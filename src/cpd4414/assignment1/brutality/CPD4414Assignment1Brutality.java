@@ -24,6 +24,8 @@ public class CPD4414Assignment1Brutality {
             return null;
         } else if (b == 1) {
             return a;
+        } else if (b == 2) {
+            return a + a;
         } else {
             return "";
         }

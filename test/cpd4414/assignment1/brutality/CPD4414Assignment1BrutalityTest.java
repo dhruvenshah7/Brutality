@@ -81,4 +81,16 @@ public class CPD4414Assignment1BrutalityTest {
         
     }
     
+    @Test
+    public void testStringAndTwoShouldReturnStringDoubled() {
+        System.out.println("testStringAndTwoShouldReturnStringDoubled");
+        String a = "bob";
+        int b = 2;
+        String expResult = "bobbob";
+        String result = CPD4414Assignment1Brutality.stringPower(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        
+    }
+    
 }
