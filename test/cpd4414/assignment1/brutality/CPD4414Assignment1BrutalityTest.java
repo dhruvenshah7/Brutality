@@ -47,13 +47,38 @@ public class CPD4414Assignment1BrutalityTest {
      */
     @Test
     public void testEmptyStringShouldReturnEmptyString() {
-        System.out.println("stringPower");
+        System.out.println("testEmptyStringShouldReturnEmptyString");
         String a = "";
-        int b = 0;
+        int b = 2;
         String expResult = "";
         String result = CPD4414Assignment1Brutality.stringPower(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         
-    }    
+    }  
+    
+    @Test
+    public void testLessThanOneShouldReturnNull() {
+        System.out.println("testLessThanOneShouldReturnNull");
+        String a = "";
+        int b = 0;
+        String expResult = null;
+        String result = CPD4414Assignment1Brutality.stringPower(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        
+    }
+    
+    @Test
+    public void testStringAndOneShouldReturnString() {
+        System.out.println("testStringAndOneShouldReturnString");
+        String a = "abc";
+        int b = 1;
+        String expResult = "abc";
+        String result = CPD4414Assignment1Brutality.stringPower(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        
+    }
+    
 }
