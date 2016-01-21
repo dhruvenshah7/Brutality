@@ -72,9 +72,9 @@ public class CPD4414Assignment1BrutalityTest {
     @Test
     public void testStringAndOneShouldReturnString() {
         System.out.println("testStringAndOneShouldReturnString");
-        String a = "abc";
+        String a = "any string";
         int b = 1;
-        String expResult = "abc";
+        String expResult = "any string";
         String result = CPD4414Assignment1Brutality.stringPower(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
