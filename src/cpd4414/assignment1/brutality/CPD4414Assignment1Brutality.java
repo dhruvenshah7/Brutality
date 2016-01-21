@@ -16,6 +16,12 @@ public class CPD4414Assignment1Brutality {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+    }
+ 
+    public static String stringPower(String a, int b)
+    {
+        return null;
     }
     
 }
