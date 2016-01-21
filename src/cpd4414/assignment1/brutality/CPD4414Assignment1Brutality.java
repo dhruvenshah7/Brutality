@@ -20,15 +20,19 @@ public class CPD4414Assignment1Brutality {
     }
 
     public static String stringPower(String a, int b) {
-        if (b < 1) {
-            return null;
-        } else if (b == 1) {
-            return a;
-        } else if (b == 2) {
-            return a + a;
-        } else {
+//        if (b < 1) {
+//            return null;
+//        } else if (b == 1) {
+//            return a;
+//        } else if (b == 2) {
+//            return a + a;
+//        } else {
+//            return "";
+//        }
+        if (a == "") {
             return "";
         }
+        return "";
     }
 
 }
