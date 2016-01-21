@@ -21,7 +21,8 @@ public class CPD4414Assignment1Brutality {
  
     public static String stringPower(String a, int b)
     {
-        return null;
+        return "";
     }
+    
     
 }
