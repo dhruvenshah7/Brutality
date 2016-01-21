@@ -60,7 +60,7 @@ public class CPD4414Assignment1BrutalityTest {
     @Test
     public void testLessThanOneShouldReturnNull() {
         System.out.println("testLessThanOneShouldReturnNull");
-        String a = "";
+        String a = "abc";
         int b = 0;
         String expResult = null;
         String result = CPD4414Assignment1Brutality.stringPower(a, b);
