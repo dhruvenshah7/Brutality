@@ -20,9 +20,7 @@ public class CPD4414Assignment1Brutality {
     }
 
     public static String stringPower(String a, int b) {
-//         else if (b == 1) {
-//            return a;
-//        } else if (b == 2) {
+//         else if (b == 2) {
 //            return a + a;
 //        } else {
 //            return "";
@@ -31,6 +29,8 @@ public class CPD4414Assignment1Brutality {
             return "";
         } else if (b < 1) {
             return null;
+        } else if (b == 1) {
+            return a;
         } else {
             return "";
         }
